@@ -1,0 +1,77 @@
+/* ======================================================
+   Practice CSS Selectors
+========================================================= */
+
+/* Change the color of all list items inside an unordered list */
+ul{
+  color: brown;
+}
+
+/* Remove the text decoration from navigation links, and change their color when hovered */
+a{
+  text-decoration: none;     
+}
+a:hover{
+  color: red;
+}
+
+/* Create hover styles for all links inside 'main' */
+main a:hover{
+  color: blue;
+}
+
+/* Change the background color of the submit button when active.
+hint: https://developer.mozilla.org/en-US/docs/Web/CSS/:active
+*/
+input:active[type="submit"]{
+  background-color: purple;
+}
+
+/*
+Give the text field a blue border upon focus.
+hint: https://developer.mozilla.org/en-US/docs/Web/CSS/:focus
+*/
+input:focus[type="text"]{
+  border-color: #00bbff;
+}
+
+
+/* Give the 'span' tag in the footer a meaningful class name and reduce its font size */
+footer .provider {
+  font-size: 15px;
+}
+
+/* Give the 'img' tag in the header an ID and set its width to 190px */
+header #header-img{
+  width: 190px;
+}
+
+/* Target all heading tags on the page and set their font family to 'Bree Serif', serif */
+h1,h2,h3,h4,h5,h6{
+  font-family:  'Bree Serif', serif;
+}
+
+/* Create hover styles for all links inside 'main' */
+main a:hover{color:orangered;}
+
+/*
+ Change the background color of the submit button when active.
+ hint: https://developer.mozilla.org/en-US/docs/Web/CSS/:active
+*/
+input[type="submit"]:active {
+  background-color: red;
+}
+
+/*
+ Give the text field a blue border upon focus.
+ hint: https://developer.mozilla.org/en-US/docs/Web/CSS/:focus
+*/
+input[type="text"]:focus{border-color: blue;}
+
+/* Give the 'span' tag in the footer a meaningful class name and reduce its font size */
+span.span_in_footer{font-size: 10px;}
+
+/* Give the 'img' tag in the header an ID and set its width to 190px */
+#footerimg {width: 190px;}
+
+/* Target all heading tags on the page and set their font family to 'Bree Serif', serif */
